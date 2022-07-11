@@ -1,0 +1,153 @@
+/* Styling for index.html */
+
+body {
+    background: darkslategray;
+    text-shadow: 2px 2px 4px #000;
+
+}
+
+#main-header {
+    margin: auto;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 4rem;
+    font-family: Verdana;
+    border: 2px solid #f4f4f4;
+    border-radius: 20px;
+    width: fit-content;
+    color: #f4f4f4;
+}
+
+#search-box {
+    margin: auto;
+    margin-top: 7vh;
+    width: 50vw;
+}
+
+#search-bar {
+    border-radius: 20px;
+    width: 100%;
+    font-size: 2rem;
+    padding: 10px 30px;
+    border: none;
+    background-color: darkslategray;
+    color: #f4f4f4;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#results {
+    margin: auto;
+    margin-top: 5px;
+    padding-top: 40px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    min-height: 5vh;
+    max-height: 50vh;
+    width: 50vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    opacity: 0.8;
+}
+
+#results::-webkit-scrollbar {
+    width: 20px;
+}
+
+#results::-webkit-scrollbar-thumb {
+    background: darkslategray;
+    border-radius: 10px;
+    border-right: 1px solid #f4f4f4;
+}
+
+#results::-webkit-scrollbar-thumb:hover {
+    background: darkslateblue;
+}
+
+#results div {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    margin: 1px 0px;
+    font-family: sans-serif;
+}
+
+#results div span {
+    position: relative;
+    bottom: 20px;
+    font-size: 1.5rem;
+}
+
+#results div a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+
+#favourites {
+    font-family: Verdana;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: 2px solid #f4f4f4;
+    padding: 4px 20px;
+    color: #f4f4f4;
+    background-color: darkslategrey;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#fav {
+    color: red;
+}
+
+#header-section {
+    font-family: Verdana;
+    font-size: 3rem;
+    padding: 20px;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+/* recently viewed superheros */
+
+#content-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #f4f4f4;
+}
+
+#content-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+#content-section div img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border-right: 5px solid darkblue;
+    border-bottom: 5px solid darkred;
+}
+
+footer {
+    color: #f4f4f4;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
