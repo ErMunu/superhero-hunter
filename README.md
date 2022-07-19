@@ -4,4 +4,4 @@ Superhero Hunter Web Application
 
 click on the link below for a quick preview of my project :
 
-https://muntazir.in/superhero
+https://superhero.muntazir.in/
